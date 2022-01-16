@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="game.js" defer></script>
+</head>
+
+<body>
+    <div class="heading"><h1>Etch A Sketch</h1></div>
+    <div id="main">
+        <div id="functions">
+            <div class="colorSetting">
+                <input type="color" id="colorPicker"></input>
+                <label class="color" for="colorPicker"></label>
+                <button class="selectColor">Select</button>
+            </div>
+            <div id="slider">
+                <span class= "sliderValue" hidden></span>
+                <input class="slider" type="range" min="1" max="64" step="1">
+                </input></div>
+            <div><button class="coloringBtn">Color</button></div>
+            <div><button class="eraserBtn">Erase</button></div>
+            <div><button class="clearBtn">Clear</button></div>
+        </div>
+        <div id="container">
+
+        </div>
+</div>
+<div class="footer">
+    Copyright&copy; All rights Reserved.
+    <a href="https://github.com/alimustafa-poder" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+</div>
+</body>
+
+</html>
