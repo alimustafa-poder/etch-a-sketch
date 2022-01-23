@@ -13,6 +13,7 @@ const slider = document.getElementsByClassName("slider")[0];
 const min = slider.min;
 const max = slider.max;
 const value = slider.value;
+sliderOutput.append(`${value + " by " + value} `);
 slider.style.background = `linear-gradient(to right, black 0%, black ${(value-min)/(max-min)*100}%, #DEE2E6 ${(value-min)/(max-min)*100}%, #DEE2E6 100%)`;
 //getting the value of slider eachtime using the oninput
 slider.oninput = function () {
