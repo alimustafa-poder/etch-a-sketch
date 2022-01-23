@@ -179,5 +179,5 @@ function updatingColor(event) {
 }
 
 window.onload = function(){
-    colorInput.value = "black";
+    document.querySelector("label").style.backgroundColor = "#000000";
 }
