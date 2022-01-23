@@ -177,3 +177,7 @@ function updatingColor(event) {
     if (!elem || elem.parentNode.id != "container") return;
     elem.style.backgroundColor = colorInput.value;
 }
+
+window.onload = function(){
+    document.querySelector("label").style.backgroundColor = "#000000";
+}
