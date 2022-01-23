@@ -51,6 +51,17 @@
   cursor: pointer;
 }
 
+#slider{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.sliderValue{
+  font-family: "Press Start 2P";
+}
+
 .coloringBtn,
 .eraserBtn,.clearBtn,.selectColor{
   font-size: 19px;
